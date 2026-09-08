@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elmer Concept — Multi-Disciplinary Creative Studio</title>
+  <meta name="description" content="Elmer Concept is an avant-garde multi-disciplinary creative studio crafting brand identities, graphic systems, motion graphics/video editing, and tactile print editions.">
+  <meta name="keywords" content="Elmer Concept, creative studio, brand identity, graphic design, motion graphics, video editing, editorial print, luxury design, typography">
+  <meta name="theme-color" content="#080808">
+
+  <!-- Google Fonts: Syne (Headings) & Libre Baskerville (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Project Stylesheet -->
+  <link rel="stylesheet" href="File.css">
+</head>
+<body>
+  <!-- Ambient Subtle Film Grain Overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Custom Minimalist Cursor -->
+  <div class="custom-cursor" aria-hidden="true"></div>
+  <div class="cursor-follower" aria-hidden="true"></div>
+
+  <!-- Sticky Minimalist Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#home" class="brand-logo" aria-label="Elmer Concept Home">
+        <div class="brand-symbol" aria-hidden="true"></div>
+        <span class="brand-name">Elmer Concept</span>
+        <span class="brand-subtitle">[Atelier]</span>
+      </a>
+
+      <div class="header-status">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="headerClock">Paris --:-- CET</span>
+        <span style="color: var(--border-strong);">•</span>
+        <span style="color: var(--cream-gold);">Available for Commissions</span>
+      </div>
+
+      <nav class="header-nav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button type="button" class="sound-toggle-btn" id="soundToggleBtn" aria-label="Toggle haptic audio clicks">
+          <span>AUDIO</span>
+        </button>
+
+        <a href="#contact" class="editorial-btn" style="padding: 0.55rem 1.25rem; font-size: 0.75rem; display: none;">
+          Inquire
+        </a>
+
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true">
+    <ul class="nav-links-mobile">
+      <li>
+        <a href="#home" class="nav-link-mobile">
+          <span>Home</span>
+          <span class="number-stamp">01</span>
+        </a>
+      </li>
+      <li>
+        <a href="#about" class="nav-link-mobile">
+          <span>About the Studio</span>
+          <span class="number-stamp">02</span>
+        </a>
+      </li>
+      <li>
+        <a href="#gallery" class="nav-link-mobile">
+          <span>Gallery</span>
+          <span class="number-stamp">03</span>
+        </a>
+      </li>
+      <li>
+        <a href="#contact" class="nav-link-mobile">
+          <span>Commission & Contact</span>
+          <span class="number-stamp">04</span>
+        </a>
+      </li>
+    </ul>
+
+    <div style="margin-top: auto; padding-top: 2rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
+      <span class="number-stamp">Paris • London</span>
+      <span class="mono-tag" style="color: var(--text-tertiary);">Inquiries Open</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- =====================================================================
+         1. HOME (HERO SECTION)
+         ===================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <!-- Hero Top Meta Coordinates -->
+        <div class="hero-meta-bar">
+          <span class="meta-index">01 / [ATELIER]</span>
+          <span class="meta-tagline">Multi-Disciplinary Creative Studio</span>
+          <span class="meta-coords">48.8566° N, 2.3522° E (PARIS) • 51.5074° N, 0.1278° W (LONDON)</span>
+        </div>
+
+        <!-- Hero Main Headline -->
+        <div class="hero-main-content">
+          <div class="hero-badge">
+            <span style="font-family: var(--font-number); font-style: italic;">Est. 2021</span>
+            <span style="color: var(--border-strong);">|</span>
+            <span>Disciplines of Distinction</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Form follows intention. Crafting <span class="accent-italic">indelible identities</span>, kinetic narratives, and tactile print.
+          </h1>
+
+          <div class="hero-description-grid">
+            <p class="hero-lead-text">
+              Elmer Concept is an independent creative atelier operating at the intersection of <span class="gold-highlight">brand architecture</span>, avant-garde typography, motion cinematography, and material craft. We strip away superficial adornment to build visual systems of enduring gravity.
+            </p>
+
+            <div>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                Collaborating internationally with cultural institutions, architecture practices, luxury maisons, and visionary founders.
+              </p>
+              <div class="hero-actions">
+                <a href="#gallery" class="editorial-btn">
+                  Explore Gallery
+                  <span style="font-family: var(--font-number); font-style: italic; font-size: 0.9rem;">→</span>
+                </a>
+                <a href="#contact" class="editorial-link">
+                  Initiate Commission
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Disciplines Bar -->
+        <div class="hero-disciplines-bar">
+          <div class="hero-discipline-item">
+            <span class="discipline-index">01</span>
+            <span class="discipline-title">Brand Identity</span>
+            <span class="discipline-sub">Systems & Architecture</span>
+          </div>
+          <div class="hero-discipline-item">
+            <span class="discipline-index">02</span>
+            <span class="discipline-title">Graphic Design</span>
+            <span class="discipline-sub">Typography & Editorial</span>
+          </div>
+          <div class="hero-discipline-item">
+            <span class="discipline-index">03</span>
+            <span class="discipline-title">Motion & Video</span>
+            <span class="discipline-sub">Kinetic & Film Direction</span>
+          </div>
+          <div class="hero-discipline-item">
+            <span class="discipline-index">04</span>
+            <span class="discipline-title">Tactile Print</span>
+            <span class="discipline-sub">Monographs & Packaging</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         2. ABOUT THE STUDIO
+         ===================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <!-- Section Header Row -->
+        <div class="section-label-row">
+          <span class="section-index">02 / [THE ATELIER]</span>
+          <span class="section-title-sm">Studio Story & Ethos</span>
+          <span class="number-stamp">[ 2021 — Present ]</span>
+        </div>
+
+        <!-- Editorial Grid -->
+        <div class="about-editorial-grid">
+          <div class="about-text-column">
+            <h2 class="about-headline">
+              We reject transient aesthetics in favor of <em>sculptural precision</em> and tactile resonance.
+            </h2>
+
+            <p class="about-prose">
+              Founded on the premise that clarity is the ultimate form of distinction, <strong>Elmer Concept</strong> operates as a boutique creative atelier. We do not mass-produce campaigns; we construct singular identities, bespoke typographic hierarchies, and cinematic motion languages tailored to clients who value nuance over volume.
+            </p>
+
+            <p class="about-prose">
+              Our multidisciplinary model dissolves the boundaries between graphic design, kinetic motion, and material fabrication. Whether shaping the tactile weight of an archival 180gsm cotton book cover or directing procedural typography across architectural LED monoliths, every gesture is governed by semantic purpose.
+            </p>
+
+            <!-- Studio Statistics -->
+            <div class="about-stats-grid">
+              <div class="stat-block">
+                <span class="stat-number">40+</span>
+                <span class="stat-label">Commissions Completed</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-number">04</span>
+                <span class="stat-label">Primary Disciplines</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-number">12</span>
+                <span class="stat-label">International Honors</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual-column">
+            <div class="studio-photo-frame">
+              <img src="assets/studio.jpg" alt="Elmer Concept Design Atelier Space in Paris" loading="lazy" />
+            </div>
+            <div class="studio-photo-caption">
+              <span>Figure 2.1 — Studio Workspace & Material Archive</span>
+              <span>Paris / London</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Four Disciplines Deep Dive -->
+        <div class="disciplines-deep-dive">
+          <div class="deep-dive-header">
+            <span class="mono-tag" style="margin-bottom: 0.5rem; display: inline-block;">Core Capabilities</span>
+            <h3 style="font-size: clamp(1.8rem, 3vw, 2.6rem); letter-spacing: -0.02em;">
+              Four Integrated Modalities of Craft
+            </h3>
+          </div>
+
+          <div class="disciplines-cards-grid">
+            <!-- 01 Brand Identity -->
+            <div class="discipline-card">
+              <div>
+                <div class="card-top">
+                  <span class="number-stamp">01</span>
+                  <span class="category-pill">Strategy & Form</span>
+                </div>
+                <h4 style="margin-top: 1rem;">Brand Identity</h4>
+                <p>Architecting indelible visual foundations: bespoke monograms, typographic families, comprehensive brand guidelines, and collateral systems.</p>
+              </div>
+              <ul class="discipline-deliverables">
+                <li>Visual Identity Systems</li>
+                <li>Monogram & Logotype Craft</li>
+                <li>Verbal Tone & Semantic Guide</li>
+                <li>Packaging & Brand Architecture</li>
+              </ul>
+            </div>
+
+            <!-- 02 Graphic Design -->
+            <div class="discipline-card">
+              <div>
+                <div class="card-top">
+                  <span class="number-stamp">02</span>
+                  <span class="category-pill">Grid & System</span>
+                </div>
+                <h4 style="margin-top: 1rem;">Graphic Design</h4>
+                <p>Rooted in Swiss modernist discipline and brutalist clarity: editorial publications, exhibition signage, posters, and digital canvases.</p>
+              </div>
+              <ul class="discipline-deliverables">
+                <li>Editorial Art Direction</li>
+                <li>Modular Grid Systems</li>
+                <li>Exhibition Spatial Graphics</li>
+                <li>Digital Typographic Interfaces</li>
+              </ul>
+            </div>
+
+            <!-- 03 Motion Graphics & Video -->
+            <div class="discipline-card">
+              <div>
+                <div class="card-top">
+                  <span class="number-stamp">03</span>
+                  <span class="category-pill">Kinetic & Sound</span>
+                </div>
+                <h4 style="margin-top: 1rem;">Motion Graphics</h4>
+                <p>Bringing stillness into fluid kinetic choreography: procedural typography, 3D spatial renders, editorial film cuts, and title sequences.</p>
+              </div>
+              <ul class="discipline-deliverables">
+                <li>Kinetic Typography Engines</li>
+                <li>Architectural 3D Projections</li>
+                <li>Editorial Video Editing & Color</li>
+                <li>Spatial Sonic Atmosphere</li>
+              </ul>
+            </div>
+
+            <!-- 04 Tactile Print -->
+            <div class="discipline-card">
+              <div>
+                <div class="card-top">
+                  <span class="number-stamp">04</span>
+                  <span class="category-pill">Material & Touch</span>
+                </div>
+                <h4 style="margin-top: 1rem;">Tactile Print</h4>
+                <p>Honoring the sensory dimension of physical artifacts: archival monographs, blind debossed stationery, hot foil stamping, and bespoke slipcases.</p>
+              </div>
+              <ul class="discipline-deliverables">
+                <li>Archival Art Monographs</li>
+                <li>Foil Debossing & Edge Gilding</li>
+                <li>Custom Paper Stock Curation</li>
+                <li>Luxury Unboxing Architecture</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         3. GALLERY (CASE STUDY SHOWCASE GRID)
+         ===================================================================== -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <!-- Section Header Row -->
+        <div class="section-label-row">
+          <span class="section-index">03 / [GALLERY]</span>
+          <span class="section-title-sm">Curated Portfolio Showcase</span>
+          <span class="number-stamp">[ 06 Selected Works ]</span>
+        </div>
+
+        <!-- Gallery Header & Category Filters -->
+        <div class="gallery-header-row">
+          <div class="gallery-title-wrap">
+            <h2>The Selected <span>Gallery</span> & Case Archives</h2>
+            <p>
+              Explore our recent commissions across brand identity, motion cinematography, graphic publications, and fine print. Click any project to open the full editorial case study layout.
+            </p>
+          </div>
+
+          <!-- Filter Pills -->
+          <div class="gallery-filters" role="tablist" aria-label="Filter Gallery by Discipline">
+            <button type="button" class="filter-btn active" data-filter="all">All Disciplines</button>
+            <button type="button" class="filter-btn" data-filter="brand-identity">Brand Identity</button>
+            <button type="button" class="filter-btn" data-filter="graphic-design">Graphic Design</button>
+            <button type="button" class="filter-btn" data-filter="motion-graphics">Motion Graphics</button>
+            <button type="button" class="filter-btn" data-filter="print">Print</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Gallery Grid Container -->
+        <div class="gallery-grid" id="galleryGrid" aria-live="polite">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         FULL CASE STUDY MODAL / GALLERY DETAIL DRAWER
+         ===================================================================== -->
+    <div class="case-modal" id="caseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-container">
+        <!-- Modal Top Bar -->
+        <div class="modal-top-bar">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span class="modal-index-meta" id="modalIndex">01 / 06</span>
+            <span style="color: var(--border-medium);">|</span>
+            <span class="mono-tag" style="color: var(--text-secondary);">Editorial Case Study</span>
+          </div>
+          <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close Case Study Layout">
+            ✕
+          </button>
+        </div>
+
+        <!-- Modal Hero Header -->
+        <div class="modal-hero-header">
+          <div class="modal-category-wrap">
+            <span class="category-pill" id="modalCategoryPill">Brand Identity</span>
+          </div>
+          <h2 class="modal-title" id="modalTitle">Project Title</h2>
+
+          <!-- Meta Grid -->
+          <div class="modal-meta-grid">
+            <div class="modal-meta-item">
+              <span class="meta-key">Client</span>
+              <span class="meta-val" id="modalClient">Client Name</span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="meta-key">Timeline</span>
+              <span class="meta-val" id="modalYear">2025</span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="meta-key">Discipline</span>
+              <span class="meta-val" id="modalDiscipline">Visual Identity</span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="meta-key">Studio Role</span>
+              <span class="meta-val">Full Art Direction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Media Showcase -->
+        <div class="modal-media-showcase">
+          <img id="modalHeroImage" src="" alt="Case Study Cover Asset" />
+        </div>
+
+        <!-- Modal Editorial Content Grid -->
+        <div class="modal-prose-grid">
+          <!-- Left Column: Challenge & Deliverables -->
+          <div class="modal-prose-sidebar">
+            <h3>Commission Scope</h3>
+            <p id="modalChallenge">
+              The project challenge narrative detailing client goals and artistic constraints.
+            </p>
+
+            <h4 style="margin-top: 2rem; font-size: 0.95rem; color: var(--cream-gold); text-transform: uppercase; letter-spacing: 0.12em;">
+              Deliverables & Systems
+            </h4>
+            <ul class="modal-deliverables-list" id="modalDeliverablesList">
+              <!-- Dynamically inserted -->
+            </ul>
+
+            <h4 style="margin-top: 2.5rem; font-size: 0.95rem; color: var(--cream-gold); text-transform: uppercase; letter-spacing: 0.12em;">
+              Curated Palette
+            </h4>
+            <div class="swatch-cards-row" id="modalSwatchesRow">
+              <!-- Dynamically inserted -->
+            </div>
+          </div>
+
+          <!-- Right Column: Semantic Approach & Art Direction -->
+          <div class="modal-body-article">
+            <div class="article-section">
+              <h4>The Semantic Foundation</h4>
+              <p id="modalOverview">
+                Detailed editorial overview of the studio's philosophical and technical methodology.
+              </p>
+            </div>
+
+            <div class="article-section">
+              <h4>Art Direction & Materiality</h4>
+              <p id="modalArtDirection">
+                Explication of the typography, lighting, paper weights, and tactile or kinetic choices made.
+              </p>
+            </div>
+
+            <div style="padding: 1.5rem; background-color: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 2px;">
+              <span class="mono-tag" style="display: block; margin-bottom: 0.5rem; color: var(--cream-gold);">Studio Colophon Note</span>
+              <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-secondary); margin: 0;">
+                All printed specimens are cataloged in the Elmer Concept permanent physical archive. Bespoke typographic fonts engineered in-house.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Navigation Footer -->
+        <div class="modal-footer-nav">
+          <button type="button" class="modal-nav-btn" id="modalPrevBtn">
+            ← Previous Project
+          </button>
+          <span class="number-stamp">Elmer Concept Case Study</span>
+          <button type="button" class="modal-nav-btn" id="modalNextBtn">
+            Next Project →
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         4. CONTACT & COMMISSION SECTION
+         ===================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <!-- Section Header Row -->
+        <div class="section-label-row">
+          <span class="section-index">04 / [INQUIRIES]</span>
+          <span class="section-title-sm">Initiate Collaboration</span>
+          <span class="number-stamp">[ Q2 / Q3 2026 ]</span>
+        </div>
+
+        <div class="contact-layout-grid">
+          <!-- Left Column: Studio Channels & Addresses -->
+          <div class="contact-info-col">
+            <h2>
+              Let us shape your <span>next dimension</span>.
+            </h2>
+
+            <p class="contact-intro-prose">
+              We welcome commissions from forward-thinking brands, architects, publishing houses, and creative directors. Every inquiry is reviewed directly by the studio founders.
+            </p>
+
+            <div class="direct-channels-list">
+              <div class="channel-item">
+                <span class="channel-label">Direct Studio Inquiries</span>
+                <a href="mailto:inquiries@elmerconcept.com" class="channel-value">
+                  inquiries@elmerconcept.com
+                </a>
+              </div>
+
+              <div class="channel-item">
+                <span class="channel-label">Studio Direct Line</span>
+                <span class="channel-value" style="font-family: var(--font-number); font-style: italic;">
+                  +33 (0)1 42 88 90 20
+                </span>
+              </div>
+
+              <div class="channel-item">
+                <span class="channel-label">Atelier Addresses</span>
+                <p style="font-size: 0.95rem; color: var(--cream-gold-light); line-height: 1.6; margin-top: 0.25rem;">
+                  18 Rue de Turenne, 75004 Paris, France<br>
+                  44 Redchurch Street, Shoreditch, London E2 7DD, UK
+                </p>
+              </div>
+            </div>
+
+            <!-- Live Studio Clocks -->
+            <div class="studio-clocks-wrap">
+              <div class="clock-item">
+                <span class="clock-city">Paris Atelier</span>
+                <span class="clock-time" id="parisTime">--:--:-- CET</span>
+              </div>
+              <div class="clock-item">
+                <span class="clock-city">London Atelier</span>
+                <span class="clock-time" id="londonTime">--:--:-- GMT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Commission Form -->
+          <div class="commission-form-wrap">
+            <div class="form-header">
+              <span class="mono-tag" style="margin-bottom: 0.5rem; display: block;">Commission Specification</span>
+              <h3>Start a Conversation</h3>
+              <p>Please share your project scope, ideal timeline, and disciplines required.</p>
+            </div>
+
+            <form class="commission-form" id="inquiryForm">
+              <div class="form-row-duo">
+                <div class="form-group">
+                  <label class="form-label" for="clientName">Your Name / Title *</label>
+                  <input type="text" id="clientName" name="clientName" class="form-input" placeholder="e.g. Helena Vance" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="clientEmail">Email Address *</label>
+                  <input type="email" id="clientEmail" name="clientEmail" class="form-input" placeholder="e.g. helena@atelier.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="clientCompany">Brand, Institution, or Studio</label>
+                <input type="text" id="clientCompany" name="clientCompany" class="form-input" placeholder="e.g. Maison Lumine Paris" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Required Disciplines (Select All Applicable)</label>
+                <div class="service-chips-grid">
+                  <label>
+                    <input type="checkbox" name="disciplines" value="Brand Identity" class="service-chip-input" checked>
+                    <span class="service-chip-label">Brand Identity</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="disciplines" value="Graphic Design" class="service-chip-input">
+                    <span class="service-chip-label">Graphic Design</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="disciplines" value="Motion Graphics" class="service-chip-input">
+                    <span class="service-chip-label">Motion Graphics</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="disciplines" value="Tactile Print" class="service-chip-input">
+                    <span class="service-chip-label">Tactile Print</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-row-duo">
+                <div class="form-group">
+                  <label class="form-label" for="projectTimeline">Desired Launch Timeline</label>
+                  <select id="projectTimeline" name="projectTimeline" class="form-select">
+                    <option value="Q2 2026">Q2 2026 (Apr — Jun)</option>
+                    <option value="Q3 2026" selected>Q3 2026 (Jul — Sep)</option>
+                    <option value="Q4 2026">Q4 2026 (Oct — Dec)</option>
+                    <option value="2027">2027 Forward</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="budgetTier">Estimated Investment</label>
+                  <select id="budgetTier" name="budgetTier" class="form-select">
+                    <option value="€15k - €25k">€15k — €25k</option>
+                    <option value="€25k - €50k" selected>€25k — €50k</option>
+                    <option value="€50k - €100k+">€50k — €100k+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="projectDetails">Project Vision & Brief *</label>
+                <textarea id="projectDetails" name="projectDetails" class="form-textarea" placeholder="Describe the ambition, core challenge, and deliverables you envision..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="editorial-btn" style="width: 100%; padding: 1.1rem;">
+                  Transmit Commission Inquiry
+                  <span style="font-family: var(--font-number); font-style: italic;">→</span>
+                </button>
+              </div>
+
+              <!-- Interactive Success Notification -->
+              <div class="form-success-alert" id="formSuccessAlert" role="alert">
+                <h5>Inquiry Received — Welcome</h5>
+                <p>Thank you for initiating contact with Elmer Concept. Our directors will review your brief and reply with an initial appraisal within two business days.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       FOOTER / COLOPHON
+       ===================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-row">
+        <div class="footer-col-left">
+          <div class="footer-logo">Elmer Concept</div>
+          <p class="footer-manifesto">
+            A multi-disciplinary creative atelier shaping enduring visual identities, editorial publications, kinetic motion narratives, and tactile print editions.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-links-col">
+            <span class="footer-links-title">Index</span>
+            <ul class="footer-links-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">The Atelier</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Inquiries</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <span class="footer-links-title">Disciplines</span>
+            <ul class="footer-links-list">
+              <li><a href="#about">Brand Identity</a></li>
+              <li><a href="#about">Graphic Design</a></li>
+              <li><a href="#about">Motion Graphics</a></li>
+              <li><a href="#about">Tactile Print</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <span class="footer-links-title">Dispatches</span>
+            <ul class="footer-links-list">
+              <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram ↗</a></li>
+              <li><a href="https://are.na" target="_blank" rel="noopener">Are.na ↗</a></li>
+              <li><a href="https://behance.net" target="_blank" rel="noopener">Behance ↗</a></li>
+              <li><a href="https://vimeo.com" target="_blank" rel="noopener">Vimeo ↗</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span class="footer-colophon">
+          [ 2026 ] Elmer Concept Atelier. All Rights Reserved. Set in Syne, Libre Baskerville & Times.
+        </span>
+        <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Return to Top of Page">
+          Return to Top ↑
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
